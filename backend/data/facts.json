@@ -1,0 +1,21 @@
+{
+  "full_name": "Ravi Shankar Kushwaha",
+  "name": "Ravi",
+  "current_role": "Tech Lead",
+  "location": "Delhi",
+  "email": "ravi@gamil.com",
+  "linkedin": "https://www.linkedin.com/in/ravi-shankar-k-45a77224/",
+  "specialties": [
+    "AI/ML",
+    "GenAI",
+    "iOS"
+  ],
+  "years_experience": 10,
+  "education": [
+    {
+      "degree": "MCA",
+      "institution": "University of Delhi",
+      "year": "2020"
+    }
+  ]
+}
