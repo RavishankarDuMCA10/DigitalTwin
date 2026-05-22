@@ -40,8 +40,9 @@ export default function Twin() {
         setIsLoading(true);
 
         try {
-            // const response = await fetch('http://localhost:8000/chat', {
-            const response = await fetch('https://pgyg5m9mcl.execute-api.us-east-1.amazonaws.com/chat', {                
+            // const response = await fetch('http://localhost:8000/chat', { //Run locally
+            // const response = await fetch('https://pgyg5m9mcl.execute-api.us-east-1.amazonaws.com/chat', {      //Run on aws          
+            const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}/chat`, { //Run on aws using Terrform
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
